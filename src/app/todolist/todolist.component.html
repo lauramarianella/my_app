@@ -1,0 +1,19 @@
+<div id="page">
+    <h2>{{title}}</h2>
+   
+    <!--ul>
+        <app-todo></app-todo>
+    </ul-->
+
+    <!--ul>
+        <div *ngFor="let item of myList; let index = index">
+        <app-todo [atrToDo2]="item" [atrIndex]="index" [atrClass]="class"></app-todo>
+        </div>
+    </ul-->
+
+    <ul>
+        <div *ngFor="let item of myList2; let index = index">
+        <app-todo [atrMyObj]="item" [atrIndex]="index"></app-todo>
+        </div>
+    </ul>
+</div>     
